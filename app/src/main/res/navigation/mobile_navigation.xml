@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.lugaresoreo.ui.home.HomeFragment"
+        android:name="com.example.lugaresoreo.ui.lugar.LugarFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_lugar" />
 
     <fragment
         android:id="@+id/nav_gallery"
