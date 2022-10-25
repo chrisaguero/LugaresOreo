@@ -1,5 +1,12 @@
 buildscript {
+    repositories{
+        google()
+        mavenCentral()
+    }
     dependencies {
+        classpath 'com.android.tools.build:gradle:7.1.0'
+        classppath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.5.2'
+        //classppath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.6.0-alpha02'
         classpath 'com.google.gms:google-services:4.3.14'
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
